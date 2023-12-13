@@ -47,5 +47,10 @@ batch_size, Gru_hidden_size, learning_rate, num_epochs can be modified by User. 
 In Google Colab you have to make directory name 'train_data' and put the data you want to use in that directory.
 In the data preprocessing sector, enter the names of the data you want to judge as acceptable in square brackets in the 'if key in []' line, excluding the extension.
 
+#### Example
+![image](https://github.com/CAU-Capstone-PPL/CafePlugGuardian-ML/assets/106421292/0636debe-6e61-4c6a-af36-c54a2ec21e4f)
+
+![image](https://github.com/CAU-Capstone-PPL/CafePlugGuardian-ML/assets/106421292/daa4fe76-9b02-4cdc-9dd3-b538cd118966)
+
 ### How to save learned model
 At the very end of the code, you can specify a save location via PATH="" and save the model. Feel free to change the name. The optimal hyper-parameters obtained by running the code can also be saved in the form of a JSON file via the following code.
