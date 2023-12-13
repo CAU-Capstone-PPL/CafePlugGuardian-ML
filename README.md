@@ -26,4 +26,8 @@ Please note that we will not be accepting contributions for CafePlugGuardian, as
 * [CafePlugGuardian-ML_Server_Flask](https://github.com/CAU-Capstone-PPL/CafePlugGuardian-ML_Server_Flask)
     * AI server - flask
 
-# CafePlugGuardian-ML
+## CafePlugGuardian-ML
+This machine learning was created to learn current patterns. It was written at Google Collab using Python. GRU model was used and Optuna was used for hyper-parameters.
+
+### How to learn current patterns
+To learn the current pattern, you need to save the information of the current pattern in an excel file and the column name of the current pattern should be 'current'. 
