@@ -34,7 +34,11 @@ To learn the current pattern, you need to save the information of the current pa
 
 #### Example
 ![image](https://github.com/CAU-Capstone-PPL/CafePlugGuardian-ML/assets/106421292/d3cd1616-fc0f-4b9c-9138-928b55b1db15)
-\nThe format should be as shown above and the length of the pattern should be 500 except for the name 'current'.
+#### Explain Example
+The format should be as shown above and the length of the pattern should be 500 except for the name 'current'.
 
 ### How to feat your own data
 Using 500 data, you can create 468 data features of length 33 for training. If you want to create features of different lengths, you can change the parameter length in the code.
+
+### How to handle initial hyper parameter
+batch_size, Gru_hidden_size, learning_rate, num_epochs can be modified by User. So if you want to feat hyper parameter to your data you can change them. We do not recommend changing 'train_ratio' and 'num_class', but if you want to change them, you can. train_ratio means that 90% of each data feature is randomly assigned as training data and the remaining 10% is assigned as test data. num_class means that it is divided into two classes: allowed and unallowed, and the number '1' is the allowed class.
