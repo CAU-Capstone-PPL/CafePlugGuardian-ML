@@ -34,7 +34,7 @@ To learn the current pattern, you need to save the information of the current pa
 
 #### Example
 ![image](https://github.com/CAU-Capstone-PPL/CafePlugGuardian-ML/assets/106421292/d3cd1616-fc0f-4b9c-9138-928b55b1db15)
-The format should be as shown above and the length of the pattern should be 500 except for the name 'current'.
+\nThe format should be as shown above and the length of the pattern should be 500 except for the name 'current'.
 
 ### How to feat your own data
 Using 500 data, you can create 468 data features of length 33 for training. If you want to create features of different lengths, you can change the parameter length in the code.
