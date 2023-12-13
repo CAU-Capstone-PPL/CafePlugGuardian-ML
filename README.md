@@ -42,3 +42,10 @@ Using 500 data, you can create 468 data features of length 33 for training. If y
 
 ### How to handle initial hyper parameter
 batch_size, Gru_hidden_size, learning_rate, num_epochs can be modified by User. So if you want to feat hyper parameter to your data you can change them. We do not recommend changing 'train_ratio' and 'num_class', but if you want to change them, you can. train_ratio means that 90% of each data feature is randomly assigned as training data and the remaining 10% is assigned as test data. num_class means that it is divided into two classes: allowed and unallowed, and the number '1' is the allowed class.
+
+### How to train the desired data as an acceptable class
+In Google Colab you have to make directory name 'train_data' and put the data you want to use in that directory.
+In the data preprocessing sector, enter the names of the data you want to judge as acceptable in square brackets in the 'if key in []' line, excluding the extension.
+
+### How to save learned model
+At the very end of the code, you can specify a save location via PATH="" and save the model. Feel free to change the name. The optimal hyper-parameters obtained by running the code can also be saved in the form of a JSON file via the following code.
