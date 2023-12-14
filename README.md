@@ -26,7 +26,7 @@ Please note that we will not be accepting contributions for CafePlugGuardian, as
 * [CafePlugGuardian-ML_Server_Flask](https://github.com/CAU-Capstone-PPL/CafePlugGuardian-ML_Server_Flask)
     * AI server - flask
 
-## CafePlugGuardian-ML
+## Introduction
 This machine learning was created to learn current patterns. It was written at Google Collab using Pytorch.  We used the GRU model built into Pytorch and Optuna for hyperparameters. 
 
 ### How to learn current patterns
