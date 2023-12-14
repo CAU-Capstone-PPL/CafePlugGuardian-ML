@@ -55,3 +55,6 @@ In the data preprocessing sector, enter the names of the data you want to judge 
 
 ### How to save learned model
 At the very end of the code, you can specify a save location via PATH="" and save the model. Feel free to change the name. The optimal hyper-parameters obtained by running the code can also be saved in the form of a JSON file via the following code.
+
+## License
+This program is licensed under MIT
