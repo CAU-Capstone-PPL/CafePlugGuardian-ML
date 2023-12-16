@@ -27,7 +27,11 @@ Please note that we will not be accepting contributions for CafePlugGuardian, as
     * AI server - flask
 
 ## Introduction
-This machine learning was created to learn current patterns. It was written at Google Collab using Pytorch.  We used the GRU model built into Pytorch and Optuna for hyperparameters. 
+This machine learning was created to learn current patterns. It was written at Google Collab using Pytorch.  We used the GRU model built into Pytorch and Optuna for hyperparameters.
+
+### Requirements to run or modifiy server
+* Torch version 2.1.0+cu121
+* Framework Google Colab
 
 ### How to learn current patterns
 To learn the current pattern, you need to save the information of the current pattern in an excel file and the column name of the current pattern should be 'current'.
